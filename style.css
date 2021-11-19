@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container div {
+  margin: 50px;
+}
+
+.container input {
+  border: none;
+  width: 150px;
+  height: 150px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  color: transparent;
+  font-weight: 800;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container input:hover {
+  cursor: pointer;
+}
+
+.item {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item div {
+  margin-top: -8px;
+  margin-left: -6px;
+}
+
+.item input {
+  width: 700px;
+  height: 60px;
+  color: transparent;
+}
+/*# sourceMappingURL=style.css.map */
